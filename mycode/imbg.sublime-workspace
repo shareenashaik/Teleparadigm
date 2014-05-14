@@ -1,0 +1,423 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"mou",
+				"mouseenter"
+			],
+			[
+				"fade",
+				"fadeIn"
+			],
+			[
+				"am",
+				"animate"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"ma",
+				"max-height"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"vis",
+				"visited"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fo",
+				"footer"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"and",
+				"android"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"main",
+				"main"
+			],
+			[
+				"t",
+				"table-cell"
+			],
+			[
+				"lef",
+				"left-container"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"sta",
+				"start_time"
+			],
+			[
+				"toda",
+				"to_date"
+			],
+			[
+				"cart",
+				"cart_type_id"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 66998,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/main.css",
+			"settings":
+			{
+				"buffer_size": 13645,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/main.js",
+			"settings":
+			{
+				"buffer_size": 5969,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 263.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/tele4/workspace/iMobiGeeks/css/normalize.css",
+		"/home/tele4/workspace/iMobiGeeks/index.html",
+		"/home/tele4/workspace/RegioMag/rm_production_new/app/views/order_sessions/index.html.haml",
+		"/home/tele4/workspace/RegioMag/rm_production_new/app/views/items_customer/item/index.html.haml",
+		"/home/tele4/workspace/RegioMag/rm_production_new/app/views/items_customer/item/show.html.haml",
+		"/home/tele4/workspace/RegioMag/rm_production_new/app/controllers/newsletters_controller.rb",
+		"/home/tele4/workspace/RegioMag/rm_production_new/app/views/layouts/customer_layout.html.haml",
+		"/home/tele4/workspace/RegioMag/rm_production_new/app/controllers/front_controller.rb",
+		"/home/tele4/workspace/RegioMag/rm_production_new/app/controllers/items_controller.rb",
+		"/home/tele4/workspace/RegioMag/rm_production_new/app/controllers/producer_customer/producer_controller.rb",
+		"/home/tele4/workspace/RegioMag/rm_production_new/app/controllers/props_controller.rb",
+		"/home/tele4/workspace/RegioMag/rm_production_new/app/controllers/categories_controller.rb",
+		"/home/tele4/workspace/RegioMag/rm_production_new/app/views/front/map.html.haml",
+		"/home/tele4/SkypeDownloads/routes.text",
+		"/home/tele4/workspace/jq-date-methods/date_fr.js",
+		"/home/tele4/Downloads/jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.js",
+		"/home/tele4/deployments/lbb_html5/app/views/layouts/default.html.haml",
+		"/home/tele4/deployments/lbb_html5/public/stylesheets/main.css",
+		"/home/tele4/deployments/lbb_html5/public/stylesheets/responsive.css",
+		"/home/tele4/personnel/Blogger Templates/qsmnopasdasdasd/copied_css_from_xml",
+		"/home/tele4/personnel/Blogger Templates/backup/template-7532677567294673079.xml",
+		"/home/tele4/personnel/Blogger Templates/qsmnopasdasdasd/evidbtnew.xml",
+		"/home/tele4/personnel/Blogger Templates/blog-post/blog-post.html",
+		"/home/tele4/personnel/Blogger Templates/qsmnopasdasdasd/rvg_boostrap.xml",
+		"/home/tele4/deployments/lbb_html5/app/models/user_session.rb",
+		"/home/tele4/deployments/lbb_html5/app/views/layouts/default.mobile.haml",
+		"/home/tele4/deployments/lbb_html5/config/database.yml",
+		"/home/tele4/workspace/lbb_html5_new/config/database.yml",
+		"/home/tele4/workspace/RegioMag/rm_production_new/config/environments/development.rb",
+		"/home/tele4/workspace/RegioMag/rm_production_new/app/views/layouts/default.html.haml",
+		"/home/tele4/workspace/RegioMag/rm_production_new/app/views/shared/_navigation.html.haml",
+		"/home/tele4/.cache/.fr-NjUI9r/sitemap.xml",
+		"/home/tele4/workspace/lbb_html5_new/app/controllers/order_sessions_controller.rb",
+		"/home/tele4/workspace/lbb_html5_new/config/environment.rb",
+		"/home/tele4/workspace/lbb_html5_new/config/schedule.rb",
+		"/home/tele4/workspace/lbb_html5_new/public/robots.txt",
+		"/home/tele4/workspace/lbb_html5_new/Rakefile",
+		"/home/tele4/.cache/.fr-TbfYVO/sitemap.xml",
+		"/home/tele4/workspace/lbb_html5_new/config/sitemap.rb",
+		"/home/tele4/workspace/lbb_html5_new/public/sitemap.xml.gz",
+		"/home/tele4/workspace/lbb_html5_new/app/views/layouts/default.mobile.haml",
+		"/home/tele4/workspace/lbb_html5_new/public/javascripts/application.js",
+		"/home/tele4/Dropbox/Ruby and Rails Setup/railsready.sh"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\n			",
+			"						",
+			"nav",
+			"\n                            ",
+			"nav a",
+			"    \n",
+			"show_wai",
+			"show_waiting_popup\nshow",
+			"show_waiting_popup\nshow_waiting_popup",
+			"img",
+			"show_hide_left_menu",
+			"menu",
+			"notif",
+			"set_flash_messages",
+			"mobile_device?",
+			"mobile",
+			"mobile_device?",
+			"save_order_online_paypal",
+			"save_and_destroy_order",
+			"make_payment_online",
+			"#resolution-error",
+			"bootstrap",
+			"get_reg",
+			"\n		",
+			"		\n",
+			"	\n",
+			"iphone "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"nav.mainmenu"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 66998,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								60394,
+								60394
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1826.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/main.css",
+					"settings":
+					{
+						"buffer_size": 13645,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9463,
+								9463
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 8814.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/main.js",
+					"settings":
+					{
+						"buffer_size": 5969,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4189,
+								4189
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2472.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 219.0,
+	"status_bar_visible": true
+}

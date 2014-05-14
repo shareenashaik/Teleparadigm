@@ -1,0 +1,276 @@
+ var currentPage=0;
+ var NumberOfImages = 3;
+ var htmlarray = [{fullurl:"index.html",hashurl:"#"},{fullurl:"BehindWorks.html",hashurl:"#bhworks"},{fullurl:"Crew.html",hashurl:"#crew"}];
+ boxAnimate();
+
+
+function boxAnimate(){
+	if($(window).width()==320)
+	{
+		$(".image-container").css({"top":-(screen.width)}).animate({"top":"30px"},200,function(){ 
+	$(this).effect("bounce",{distance: 24,times: 3},"slow",function(){
+		$(".closed-box").attr('src','img/main/open_box.gif');
+		  $(".image1").delay(700).animate({"opacity":"+=1","top":"-100","left":"-80"},400,function(){
+			 $(this).effect("bounce",{distance: 10,times: 3},500);
+		}); 
+		$(".image2").delay(700).animate({"opacity":"+=1","top":"-120","left":"-10"},400,function(){
+			 $(this).effect("bounce",{distance: 10,times: 3},500);
+		 });
+		 $(".image3").delay(700).animate({"opacity":"+=1","top":"-100","left":"60"},400,function(){
+			 $(this).effect("bounce",{distance: 10,times: 3},500);
+		 });
+		 $(".image4").delay(700).animate({"opacity":"+=1","top":"0","left":"-110"},400,function(){
+			 $(this).effect('bounce',{distance: 10,direction: 'right',times: 3},500);
+		 });
+		 $(".image5").delay(700).animate({"opacity":"+=1","top":"-4","left":"100"},400,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image6").delay(700).animate({"opacity":"+=1","top":"-30","left":"60"},400,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image7").delay(700).animate({"opacity":"+=1","top":"-40","left":"-80"},400,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image8").delay(700).animate({"opacity":"+=1","top":"-70","left":"-130"},400,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image9").delay(700).animate({"opacity":"+=1","top":"-70","left":"110"},400,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image10").delay(700).animate({"opacity":"+=1","top":"-60","left":"20"},400,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image11").delay(700).animate({"opacity":"+=1","top":"-60","left":"-50"},400,function(){
+		    $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image12").delay(700).animate({"opacity":"+=1","top":"-30","left":"-6"},400,function(){
+			$(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image13").delay(700).animate({"opacity":"+=1","top":"0","left":"-30"},400,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image14").delay(700).animate({"opacity":"+=1","top":"20","left":"5"},400,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image15").delay(700).animate({"opacity":"+=1","top":"40","left":"-6"},400,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });	
+	});
+ });
+	}
+	else if($(window).width() <= 469){
+	
+		$(".image-container").css({"top":-(screen.width)}).animate({"top":"0"},200,function(){ 
+	$(this).effect("bounce",{distance: 24,times: 3},"slow",function(){
+		$(".closed-box").attr('src','img/main/open_box.gif');
+		  $(".image1").delay(700).animate({"opacity":"+=1","top":"-140","left":"-90"},400,function(){
+			 $(this).effect("bounce",{distance: 10,times: 3},500);
+		}); 
+		$(".image2").delay(700).animate({"opacity":"+=1","top":"-180","left":"0"},400,function(){
+			 $(this).effect("bounce",{distance: 10,times: 3},500);
+		 });
+		 $(".image3").delay(700).animate({"opacity":"+=1","top":"-140","left":"90"},400,function(){
+			 $(this).effect("bounce",{distance: 10,times: 3},500);
+		 });
+		 $(".image4").delay(700).animate({"opacity":"+=1","top":"0","left":"-140"},400,function(){
+			 $(this).effect('bounce',{distance: 10,direction: 'right',times: 3},500);
+		 });
+		 $(".image5").delay(700).animate({"opacity":"+=1","top":"-10","left":"150"},400,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image6").delay(700).animate({"opacity":"+=1","top":"-40","left":"90"},400,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image7").delay(700).animate({"opacity":"+=1","top":"-60","left":"-100"},400,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image8").delay(700).animate({"opacity":"+=1","top":"-100","left":"-160"},400,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image9").delay(700).animate({"opacity":"+=1","top":"-100","left":"170"},400,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image10").delay(700).animate({"opacity":"+=1","top":"-80","left":"40"},400,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image11").delay(700).animate({"opacity":"+=1","top":"-80","left":"-50"},400,function(){
+		    $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image12").delay(700).animate({"opacity":"+=1","top":"-40","left":"0"},400,function(){
+			$(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image13").delay(700).animate({"opacity":"+=1","top":"0","left":"-40"},400,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image14").delay(700).animate({"opacity":"+=1","top":"0","left":"40"},400,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image15").delay(700).animate({"opacity":"+=1","top":"40","left":"-6"},400,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });	
+	});
+ });
+	}
+	else if($(window).height()>720 && $(window).height()<864)
+	{
+		$(".image-container").css({"top":-(screen.width)}).animate({"top":200},300,function(){ 
+	$(this).effect("bounce",{distance: 24,times: 3},"slow",function(){
+		$(".closed-box").attr('src','img/main/open_box.gif');
+		   $(".image1").delay(700).animate({"opacity":"+=1","top":"-180","left":"-140"},300,function(){
+			 $(this).effect("bounce",{distance: 10,times: 3},500);
+		});
+		 $(".image2").delay(700).animate({"opacity":"+=1","top":"-240","left":"0"},300,function(){
+			 $(this).effect("bounce",{distance: 10,times: 3},500);
+		 });
+		 $(".image3").delay(700).animate({"opacity":"+=1","top":"-160","left":"150"},300,function(){
+			 $(this).effect("bounce",{distance: 10,times: 3},500);
+		 });
+		 $(".image4").delay(700).animate({"opacity":"+=1","top":"-40","left":"-280"},300,function(){
+			 $(this).effect('bounce',{distance: 10,direction: 'right',times: 3},500);
+		 });
+		 $(".image5").delay(700).animate({"opacity":"+=1","top":"-10","left":"240"},300,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image6").delay(700).animate({"opacity":"+=1","top":"-40","left":"160"},300,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image7").delay(700).animate({"opacity":"+=1","top":"-50","left":"-124"},300,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image8").delay(700).animate({"opacity":"+=1","top":"-110","left":"-220"},300,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image9").delay(700).animate({"opacity":"+=1","top":"-120","left":"260"},300,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image10").delay(700).animate({"opacity":"+=1","top":"-120","left":"90"},300,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image11").delay(700).animate({"opacity":"+=1","top":"-110","left":"-56"},300,function(){
+		    $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image12").delay(700).animate({"opacity":"+=1","top":"-60","left":"20"},300,function(){
+			$(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image13").delay(700).animate({"opacity":"+=1","top":"0","left":"-30"},300,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image14").delay(700).animate({"opacity":"+=1","top":"0","left":"40"},300,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image15").delay(700).animate({"opacity":"+=1","top":"80","left":"-6"},300,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		
+	});
+ });
+	}
+	else if($(window).height()>864)
+	{
+		$(".image-container").css({"top":-(screen.width)}).animate({"top":340},300,function(){ 
+	$(this).effect("bounce",{distance: 24,times: 3},"slow",function(){
+		$(".closed-box").attr('src','img/main/open_box.gif');
+		   $(".image1").delay(700).animate({"opacity":"+=1","top":"-180","left":"-140"},300,function(){
+			 $(this).effect("bounce",{distance: 10,times: 3},500);
+		});
+		 $(".image2").delay(700).animate({"opacity":"+=1","top":"-240","left":"0"},300,function(){
+			 $(this).effect("bounce",{distance: 10,times: 3},500);
+		 });
+		 $(".image3").delay(700).animate({"opacity":"+=1","top":"-160","left":"150"},300,function(){
+			 $(this).effect("bounce",{distance: 10,times: 3},500);
+		 });
+		 $(".image4").delay(700).animate({"opacity":"+=1","top":"-40","left":"-280"},300,function(){
+			 $(this).effect('bounce',{distance: 10,direction: 'right',times: 3},500);
+		 });
+		 $(".image5").delay(700).animate({"opacity":"+=1","top":"-10","left":"240"},300,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image6").delay(700).animate({"opacity":"+=1","top":"-40","left":"160"},300,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image7").delay(700).animate({"opacity":"+=1","top":"-50","left":"-124"},300,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image8").delay(700).animate({"opacity":"+=1","top":"-110","left":"-220"},300,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image9").delay(700).animate({"opacity":"+=1","top":"-120","left":"260"},300,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image10").delay(700).animate({"opacity":"+=1","top":"-120","left":"90"},300,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image11").delay(700).animate({"opacity":"+=1","top":"-110","left":"-56"},300,function(){
+		    $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image12").delay(700).animate({"opacity":"+=1","top":"-60","left":"20"},300,function(){
+			$(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image13").delay(700).animate({"opacity":"+=1","top":"0","left":"-30"},300,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image14").delay(700).animate({"opacity":"+=1","top":"0","left":"40"},300,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image15").delay(700).animate({"opacity":"+=1","top":"80","left":"-6"},300,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		
+	});
+ });
+	}
+	else{
+	$(".image-container").css({"top":-(screen.width)}).animate({"top":"120px"},300,function(){ 
+	$(this).effect("bounce",{distance: 24,times: 3},"slow",function(){
+		$(".closed-box").attr('src','img/main/open_box.gif');
+		   $(".image1").delay(700).animate({"opacity":"+=1","top":"-180","left":"-140"},300,function(){
+			 $(this).effect("bounce",{distance: 10,times: 3},500);
+		});
+		 $(".image2").delay(700).animate({"opacity":"+=1","top":"-240","left":"0"},300,function(){
+			 $(this).effect("bounce",{distance: 10,times: 3},500);
+		 });
+		 $(".image3").delay(700).animate({"opacity":"+=1","top":"-160","left":"150"},300,function(){
+			 $(this).effect("bounce",{distance: 10,times: 3},500);
+		 });
+		 $(".image4").delay(700).animate({"opacity":"+=1","top":"-40","left":"-280"},300,function(){
+			 $(this).effect('bounce',{distance: 10,direction: 'right',times: 3},500);
+		 });
+		 $(".image5").delay(700).animate({"opacity":"+=1","top":"-10","left":"240"},300,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image6").delay(700).animate({"opacity":"+=1","top":"-40","left":"160"},300,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image7").delay(700).animate({"opacity":"+=1","top":"-50","left":"-124"},300,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image8").delay(700).animate({"opacity":"+=1","top":"-110","left":"-220"},300,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image9").delay(700).animate({"opacity":"+=1","top":"-120","left":"260"},300,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image10").delay(700).animate({"opacity":"+=1","top":"-120","left":"90"},300,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image11").delay(700).animate({"opacity":"+=1","top":"-110","left":"-56"},300,function(){
+		    $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image12").delay(700).animate({"opacity":"+=1","top":"-60","left":"20"},300,function(){
+			$(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image13").delay(700).animate({"opacity":"+=1","top":"0","left":"-30"},300,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image14").delay(700).animate({"opacity":"+=1","top":"0","left":"40"},300,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		 $(".image15").delay(700).animate({"opacity":"+=1","top":"80","left":"-6"},300,function(){
+			 $(this).effect('bounce',{distance: 10,times: 3},500);
+		 });
+		
+	});
+ });
+	}
+
+}

@@ -1,0 +1,1280 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>iMobiGeeks</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="header-container">
+            <header class="wrapper clearfix">                
+                <nav class="mainmenu">
+                    <ul id="app-nav-menu">
+                        <li>
+                            <div class='ios-stripe'></div>
+                            <a href="#" class='ios' data-toggle="#ios-menu">
+                                <img src="img/menu/menu_apple.png"  alt='ios'/>
+                                <span>iOS</span>
+                            </a>
+                        </li>
+                        <li>
+                            <div class='android-stripe'></div>
+                            <a href="#" class='android' data-toggle="#android-menu">
+                            <img src="img/menu/menu_android.png" alt='and'/>
+                                <span>ANDROID</span>
+                            </a>
+                        </li>
+                        <li>
+                            <div class='windows-stripe'></div>
+                            <a href="#" class='windows'  data-toggle="#windows-menu">
+                                <img src="img/menu/menu_windows.png"  alt='win'/>
+                                <span>WINDOWS</span>
+                                
+                            </a>
+                        </li>
+                        <li>
+                            <div class='web-stripe'></div>
+                            <a href="#" class='web'  data-toggle="#web-menu">
+                                <img src="img/menu/menu_web.png"  alt='web'/>
+                                <span>WEB</span>                                
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+        <div class="main-container" >
+            <div class='left-wrapper' >
+                <div class="left-container">
+                    <a herf="/" id="feedback" class="specail-text">
+                        <div class="cf-img"></div>
+                        <span>Client's Feedback</span>
+                    </a>
+                    <a href="/" class="logo">
+                        <img src="img/main/logo.png" alt="iMobigeeks" />
+                    </a>
+                </div>
+            </div>
+
+            <div class="main wrapper">
+                   <div id="right-wrapper">
+			  
+			  <div class="box-aniamtion">
+              			<img class="closed-box" src="img/main/box_1.png" />
+               		 <div class="box-image-container">
+					<div class="image1">
+						<img class="box-image" src="img/main/html5.png" alt="html5" />
+					</div>
+					<div class="image2">
+						<img class="box-image" src="img/main/java.png" alt="java" />
+					</div>
+					<div class="image3">
+						<img class="box-image" src="img/main/css3.png" alt="css3" />
+					</div>
+					<div class="image4">
+						<img class="box-image" src="img/main/jquery.png" alt="jquery" />
+					</div>
+					<div class="image5">
+						<img class="box-image" src="img/main/dot-net.png" alt="dot-net" />
+					</div>
+					<div class="image6">
+						<img class="box-image" src="img/main/php.png" alt="php" />
+					</div>
+					<div class="image7">
+						<img class="box-image" src="img/main/rails.png" alt="rails" />
+					</div>
+					<div class="image8">
+						<img class="box-image" src="img/main/wordpress.png" alt="wordpress" />
+					</div>
+					<div class="image9">
+						<img class="box-image" src="img/main/box_windows.png" alt="windows" />
+					</div>
+					<div class="image10">
+						<img class="box-image" src="img/main/flex.png" alt="flex" />
+					</div>
+					<div class="image11">
+						<img class="box-image" src="img/main/ruby.png" alt="ruby" />
+					</div>
+					<div class="image12">
+						<img class="box-image" src="img/main/iphone.png" alt="iphone" />
+					</div>
+					<div class="image13">
+						<img class="box-image" src="img/main/android-mobile.png" alt="android-mobile" />
+					</div>
+					<div class="image14">
+						<img class="box-image" src="img/main/ipad.png" alt="ipad" />
+					</div>
+					<div class="image15">
+						<img class="box-image" src="img/main/android-tablet.png" alt="android-tablet" />
+					</div>
+                    </div>
+		</div>
+		<div data-role="menu" id="ios-menu" class='applications'>
+                    <!--div class="app-categories">
+                        <ul>
+                            <li>
+                                <a href="#" data-toggle='iPhone'>
+                                    <img src="img/assets" />
+                                </a>
+
+                            </li>
+
+                        </ul>
+                    </div -->
+
+                    <nav>
+                        <ul class="inline apps-menu">
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+
+
+                        </ul>
+
+                    </nav>
+                </div>
+                <div data-role="menu" id="android-menu" class='applications'>
+                    <nav>
+                        <ul class="inline apps-menu">
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                            
+
+                        </ul>
+
+                    </nav>
+                </div>
+                
+                <div data-role="menu" id="windows-menu" class="applications">
+                    <nav>
+                        <ul class="inline apps-menu">
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#app-name" class='menuitem' data-platform="iPhone">
+                                    <img src="img/appmenu/ios/1Track.png" />
+                                    <h4 class='app-name'>1 Track</h4>
+                                </a>
+                            </li>
+                    </ul></nav>
+
+                </div>
+                <div data-role="menu" id="web-menu" class="applications">
+                       <nav>
+                        <ul class="inline apps-menu">
+                            <li>
+                                <a href="#" class='menuitem' data-platform="iPhone" data-img-src='img/assets/ABA-big.png' data-url='https://itunes.apple.com/us/app/aba-grassroots/id652707822?ls=1&mt=8' >
+                                    <img src="img/assets/aba.png" />
+                                    <h4 class='app-name'>ABA Grassroots</h4>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class='menuitem' data-platform="iPhone" data-img-src='img/assets/ABA-big.png' data-url='https://itunes.apple.com/us/app/aba-grassroots/id652707822?ls=1&mt=8' >
+                                    <img src="img/assets/aba.png" />
+                                    <h4 class='app-name'>ABA Grassroots</h4>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class='menuitem' data-platform="iPhone" data-img-src='img/assets/AOE.png' data-url='https://itunes.apple.com/us/app/aba-grassroots/id652707822?ls=1&mt=8' >
+                                    <img src="img/assets/AOE_app_icon.png" />
+                                    <h4 class='app-name'>AOE</h4>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class='menuitem' data-platform="iPhone" data-img-src='img/assets/ABA-big.png' data-url='https://itunes.apple.com/us/app/aba-grassroots/id652707822?ls=1&mt=8' >
+                                    <img src="img/assets/aba.png" />
+                                    <h4 class='app-name'>ABA Grassroots</h4>
+                                </a>
+                            </li>
+                        </ul>
+                       </nav>
+
+                </div>
+               
+		</div>
+                
+            </div> <!-- #main -->
+
+            <div class='right-wrapper'>
+                <div class="right-container" >
+                    <div id="contactus">
+                        <h2 class="header specail-text clearfix"> 
+                            Reach Us
+                        </h2>
+                        <nav class="clearfix">
+                            <ul class='inline'>
+                                <li>
+                                    <a href="mailto:hr@teleparadigm.com" class='mail'>
+                                        <img src="img/contact/mail.png" alt="mail"/>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="skype:prakashvss12?chat" class='skype'>
+                                        <img src="img/contact/skype.png" alt="skype"/>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://facebook.com" target="_blank" class='facebook'>
+                                        <img src="img/contact/facebook.png" alt="fb"/>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://twitter.com" target="_blank" class='twitter'>
+                                        <img src="img/contact/twitter.png" alt="twitter"/>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="http://linkedin.com" target="_blank" class='twitter'>
+                                        <img src="img/contact/linked-in.png" alt="linkedin"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                        
+                        <p class="address">
+                            imobiGeeks, 3-4-494/1, Genesis Towers, Barkatpura, Hyderabad, INDIA - 500027
+                        </p>
+                        <footer class="footer">
+                            <div class="phone">
+                                <a style="opacity: 1;" href="#">
+                                    <img style="opacity:1;" alt="contact" src="img/contact/contact.png"/>
+                                    <span>+91 40 2756 6033</span>
+                                </a>
+                            </div>
+                            <div class="map">
+                                <a style="opacity: 1;" href="#">
+                                    <img style="opacity:1;" alt="contact" src="img/contact/marker.png"/>
+                                    <span>Map Location</span>
+                                </a>
+                            </div>                        
+                            
+                        </footer>
+                    </div>
+
+                    <div id="team" class="specail-text">
+                        <div class="cf-img"></div>
+                        <span>Our Team</span>
+                    </div>                
+                </div>
+            </div>
+            
+            
+
+
+        </div> <!-- #main-container -->
+        <div class='clearfix'></div>
+        <div class="overlay-bg">        
+
+            <div class="bf_nav">
+                <a id="bf_prev" href="#" class="bf_prev"></a>
+                <a id="bf_next" href="#" class="bf_next"></a>
+            </div>
+
+            <div id="popup_box">    
+                <img id="f_gallery" src="" />  <!-- OUR PopupBox DIV-->
+                <ul id="pagination">
+                    <li><a href="#" id="screen" class="active">1</a></li>
+                    <li><a href="#" id="salient">2</a></li>
+                </ul>
+      
+                <div class="bf_heading">
+                    <div class="menu">
+                        <div id="features" style="display:none;">
+                            <h1>Features</h1>
+                            <ul>
+                                <li>Lorem Ipsum text</li>
+                                <li>Lorem Ipsum text</li>
+                                <li>Lorem Ipsum text</li>
+                            </ul>
+                        </div>
+                        <a href="#" id="ss" data-selected="no">Screenshot</a> |
+                        <a href="#" id="fs" data-selected="yes">Features</a>
+                    </div>
+                    <div id="view-more">
+                        <a href="#">View More</a>
+                    </div>
+                    <div id="view-back">
+                        <a href="#">Back</a>
+                    </div>
+                    <h2></h2>
+            
+                </div>
+                <div class="bf_link">
+                    <a href="" target="_blank"><img src="img/assets/app-store.png" /></a>
+                </div>
+            </div>
+            <a id="popupBoxClose"></a>
+        </div>
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+        <script src="js/jquery-ui-1.10.4.min.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
+</html>
